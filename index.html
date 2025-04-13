@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whispers of a Letter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="imagePopup" class="popup">
+    <img id="popupImg" src="" alt="Popup Image" />
+  </div>
+
+  <div id="videoScreen" class="video-screen">
+    <video id="video" playsinline controls>
+      <source src="assets/background.mp4" type="video/mp4" />
+      Trình duyệt của bạn không hỗ trợ phát video.
+    </video>
+    <button id="closeVideoBtn" class="close-video-btn">
+      <img src="assets/close.svg" alt="Close" />
+    </button>
+  </div>
+
+  <div id="blackOverlay" class="black-overlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
