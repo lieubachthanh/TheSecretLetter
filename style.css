@@ -65,6 +65,7 @@ body.fade-to-black {
   position: fixed;
   top: -100px;
   opacity: 0;
+  width: 100px;
   animation: fall linear forwards, glowPulse 2s ease-in-out infinite;
   cursor: pointer;
   z-index: 10;
