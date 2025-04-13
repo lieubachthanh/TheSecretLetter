@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     img.src = imageSources[photoIndex];
     img.className = 'falling-img';
     img.style.left = `${Math.random() * 90}vw`;
-    img.style.animationDuration = `${7 + Math.random() * 5}s`;
+    img.style.animationDuration = `${5 + Math.random() * 5}s`;
 
     img.addEventListener('click', () => {
       popup.style.display = 'flex';
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.body.appendChild(img);
-    setTimeout(() => img.remove(), 10000);
+    setTimeout(() => img.remove(), 12000);
     photoIndex = (photoIndex + 1) % imageSources.length;
   }
 

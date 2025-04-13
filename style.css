@@ -62,7 +62,6 @@ body.fade-to-black {
 
 /* 🖼️ Ảnh rơi */
 .falling-img {
-  scale: 1.3;
   position: fixed;
   top: -100px;
   opacity: 0;
